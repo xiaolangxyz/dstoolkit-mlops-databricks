@@ -1,22 +1,22 @@
 {
-    "RBAC_Assignments":  [
-                             {
-                                 "roles":  [
-                                               "Key Vault Administrator"
-                                           ],
-                                 "roleBeneficiaryObjID":  "d30dd2e8-25d0-49cb-b99a-80ae061aac2c",
-                                 "Description":  "Your Object ID",
-                                 "principalType":  "User"
-                             },
-                             {
-                                 "roles":  [
-                                               "Contributor",
-                                               "Key Vault Administrator",
-                                               "Storage Blob Data Contributor"
-                                           ],
-                                 "roleBeneficiaryObjID":  "eb578d1b-72d9-4aa7-97be-97ace3a8954e",
-                                 "Description":  "Databricks SPN",
-                                 "principalType":  "ServicePrincipal"
-                             }
-                         ]
+  "RBAC_Assignments": [
+    {
+      "roles": [
+        "Key Vault Administrator"
+      ],
+      "roleBeneficiaryObjID": "4679b946-69bb-4efb-9d03-0db06bb3b85e",
+      "Description": "Your Object ID",
+      "principalType": "User"
+    },
+    {
+      "roles": [
+        "Contributor",
+        "Key Vault Administrator",
+        "Storage Blob Data Contributor"
+      ],
+      "roleBeneficiaryObjID": null,
+      "Description": "Databricks SPN",
+      "principalType": "ServicePrincipal"
+    }
+  ]
 }
